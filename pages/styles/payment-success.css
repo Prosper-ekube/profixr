@@ -1,0 +1,85 @@
+main{
+  margin-top: 50px;
+}
+.write {
+  background-image: url("/images/img-6.jpeg");
+  background-attachment: fixed;
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #F7F7F7;
+}
+
+.write p {
+  padding-top: 10px;
+  color: #9AD2FF;
+}
+
+.part-2 {
+  padding: 15px 20px 0 20px;
+  text-align: center;
+}
+
+.part-2 img {
+  height: 30px;
+}
+
+#one {
+  margin-top: 3rem;
+}
+
+h5 {
+  margin-top: 2rem;
+  font-size: medium;
+}
+
+#two {
+  margin-top: 15px;
+}
+
+#three {
+  font-size: 12px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 15px 0 0 30px;
+  color:#003DA5;
+}
+
+#three img {
+  height: 16px;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background-color: #003DA5;
+  width: 60%;
+  padding: 8px 0;
+  border-radius: 3.5px;
+  display: flex;
+  margin: 18px auto 18px auto;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+}
+button a {
+  color: #F2F2F2;
+}
+@media screen and (min-width: 769px) {
+  .write h1{
+    padding-top: 28px;
+    font-size: 40px;
+  }
+  .part-2 h2{
+    font-size: 34px;
+  }
+  button {
+    width: 350px;
+  }
+}

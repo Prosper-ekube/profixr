@@ -1,0 +1,28 @@
+main{
+  padding: 0 20px;
+}
+main h3{
+    padding: 22px 0;
+}
+main > p{
+    padding-bottom: 22px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-section-child {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hero-section-child div{
+    display: flex;
+    gap: 4px;
+}
+@media screen and (min-width:769px){
+    main {
+    padding: 40px 60px 0 60px;
+  }
+}
